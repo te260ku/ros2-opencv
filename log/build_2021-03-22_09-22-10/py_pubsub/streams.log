@@ -1,0 +1,25 @@
+[1.224s] Invoking command in '/home/ubuntu/dev_ws/src/py_pubsub': PYTHONPATH=/home/ubuntu/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages:/home/ubuntu/ros2_opencv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/ros2_opencv_ws/install/cv_basics/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/ubuntu/dev_ws/build/py_pubsub/build install --prefix /home/ubuntu/dev_ws/install/py_pubsub --record /home/ubuntu/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[2.269s] running egg_info
+[2.271s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.272s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.273s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.273s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.274s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.410s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.414s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.415s] running build
+[2.415s] running build_py
+[2.416s] copying py_pubsub/publisher_member_function.py -> /home/ubuntu/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[2.418s] running install
+[2.421s] running install_lib
+[2.425s] copying /home/ubuntu/dev_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/ubuntu/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[2.429s] byte-compiling /home/ubuntu/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[2.435s] running install_data
+[2.437s] running install_egg_info
+[2.444s] removing '/home/ubuntu/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[2.445s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/ubuntu/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[2.450s] running install_scripts
+[2.520s] Installing listener script to /home/ubuntu/dev_ws/install/py_pubsub/lib/py_pubsub
+[2.520s] Installing talker script to /home/ubuntu/dev_ws/install/py_pubsub/lib/py_pubsub
+[2.522s] writing list of installed files to '/home/ubuntu/dev_ws/build/py_pubsub/install.log'
+[2.619s] Invoked command in '/home/ubuntu/dev_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages:/home/ubuntu/ros2_opencv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/ros2_opencv_ws/install/cv_basics/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/ubuntu/dev_ws/build/py_pubsub/build install --prefix /home/ubuntu/dev_ws/install/py_pubsub --record /home/ubuntu/dev_ws/build/py_pubsub/install.log --single-version-externally-managed

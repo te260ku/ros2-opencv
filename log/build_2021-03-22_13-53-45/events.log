@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000954] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001331] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002037] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002620] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003768] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.004033] (turtlesim_simple) JobQueued: {'identifier': 'turtlesim_simple', 'dependencies': OrderedDict()}
+[0.004152] (turtlesim_simple) JobStarted: {'identifier': 'turtlesim_simple'}
+[0.099078] (-) TimerEvent: {}
+[0.199920] (-) TimerEvent: {}
+[0.300556] (-) TimerEvent: {}
+[0.401290] (-) TimerEvent: {}
+[0.501903] (-) TimerEvent: {}
+[0.602503] (-) TimerEvent: {}
+[0.703106] (-) TimerEvent: {}
+[0.803695] (-) TimerEvent: {}
+[0.904299] (-) TimerEvent: {}
+[1.004953] (-) TimerEvent: {}
+[1.105707] (-) TimerEvent: {}
+[1.206598] (turtlesim_simple) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlesim_simple', 'build', '--build-base', '/home/ubuntu/dev_ws/build/turtlesim_simple/build', 'install', '--prefix', '/home/ubuntu/dev_ws/install/turtlesim_simple', '--record', '/home/ubuntu/dev_ws/build/turtlesim_simple/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/dev_ws/src/turtlesim_simple', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.11.3 57683 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/dev_ws/install/tutorial_interfaces/lib:/home/ubuntu/dev_ws/install/turtlesim/lib:/home/ubuntu/ros2_opencv_ws/install/turtlesim/lib:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/dev_ws/install:/home/ubuntu/ros2_opencv_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'GAZEBO_MODEL_PATH': ':/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/dev_ws/install/py_srvcli:/home/ubuntu/dev_ws/install/py_pubsub:/home/ubuntu/dev_ws/install/tutorial_interfaces:/home/ubuntu/dev_ws/install/turtlesim_simple:/home/ubuntu/dev_ws/install/turtlesim:/home/ubuntu/dev_ws/install/my_package:/home/ubuntu/ros2_opencv_ws/install/turtlesim:/home/ubuntu/ros2_opencv_ws/install/cv_basics:/home/ubuntu/turtlebot3_ws/install/turtlebot3_simulations:/home/ubuntu/turtlebot3_ws/install/turtlebot3_gazebo:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_fake_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'PWD': '/home/ubuntu/dev_ws/build/turtlesim_simple', 'TURTLEBOT3_MODEL': 'waffle_pi', 'SSH_CONNECTION': '192.168.11.3 57683 192.168.11.16 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages:/home/ubuntu/ros2_opencv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/ros2_opencv_ws/install/cv_basics/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/dev_ws/install/tutorial_interfaces:/home/ubuntu/dev_ws/install/turtlesim:/home/ubuntu/ros2_opencv_ws/install/turtlesim:/home/ubuntu/turtlebot3_ws/install/turtlebot3_simulations:/home/ubuntu/turtlebot3_ws/install/turtlebot3_gazebo:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_fake_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk'}, 'shell': False}
+[1.209983] (-) TimerEvent: {}
+[1.310894] (-) TimerEvent: {}
+[1.411658] (-) TimerEvent: {}
+[1.512313] (-) TimerEvent: {}
+[1.612965] (-) TimerEvent: {}
+[1.713596] (-) TimerEvent: {}
+[1.814213] (-) TimerEvent: {}
+[1.914859] (-) TimerEvent: {}
+[2.015473] (-) TimerEvent: {}
+[2.116097] (-) TimerEvent: {}
+[2.216833] (-) TimerEvent: {}
+[2.271679] (turtlesim_simple) StdoutLine: {'line': b'running egg_info\n'}
+[2.274100] (turtlesim_simple) StdoutLine: {'line': b'writing ../../build/turtlesim_simple/turtlesim_simple.egg-info/PKG-INFO\n'}
+[2.275181] (turtlesim_simple) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlesim_simple/turtlesim_simple.egg-info/dependency_links.txt\n'}
+[2.276075] (turtlesim_simple) StdoutLine: {'line': b'writing entry points to ../../build/turtlesim_simple/turtlesim_simple.egg-info/entry_points.txt\n'}
+[2.276759] (turtlesim_simple) StdoutLine: {'line': b'writing requirements to ../../build/turtlesim_simple/turtlesim_simple.egg-info/requires.txt\n'}
+[2.277409] (turtlesim_simple) StdoutLine: {'line': b'writing top-level names to ../../build/turtlesim_simple/turtlesim_simple.egg-info/top_level.txt\n'}
+[2.316994] (-) TimerEvent: {}
+[2.414218] (turtlesim_simple) StdoutLine: {'line': b"reading manifest file '../../build/turtlesim_simple/turtlesim_simple.egg-info/SOURCES.txt'\n"}
+[2.417123] (-) TimerEvent: {}
+[2.418267] (turtlesim_simple) StdoutLine: {'line': b"writing manifest file '../../build/turtlesim_simple/turtlesim_simple.egg-info/SOURCES.txt'\n"}
+[2.418879] (turtlesim_simple) StdoutLine: {'line': b'running build\n'}
+[2.419355] (turtlesim_simple) StdoutLine: {'line': b'running build_py\n'}
+[2.420171] (turtlesim_simple) StdoutLine: {'line': b'copying turtlesim_simple/publisher_key.py -> /home/ubuntu/dev_ws/build/turtlesim_simple/build/lib/turtlesim_simple\n'}
+[2.421458] (turtlesim_simple) StdoutLine: {'line': b'running install\n'}
+[2.425087] (turtlesim_simple) StdoutLine: {'line': b'running install_lib\n'}
+[2.429519] (turtlesim_simple) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/build/turtlesim_simple/build/lib/turtlesim_simple/publisher_key.py -> /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple\n'}
+[2.432739] (turtlesim_simple) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple/publisher_key.py to publisher_key.cpython-38.pyc\n'}
+[2.437216] (turtlesim_simple) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (publisher_key.py, line 24)\n'}
+[2.437908] (turtlesim_simple) StdoutLine: {'line': b'running install_data\n'}
+[2.439475] (turtlesim_simple) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.446100] (turtlesim_simple) StdoutLine: {'line': b"removing '/home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.447671] (turtlesim_simple) StdoutLine: {'line': b'Copying ../../build/turtlesim_simple/turtlesim_simple.egg-info to /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple-0.0.0-py3.8.egg-info\n'}
+[2.452528] (turtlesim_simple) StdoutLine: {'line': b'running install_scripts\n'}
+[2.517300] (-) TimerEvent: {}
+[2.522762] (turtlesim_simple) StdoutLine: {'line': b'Installing key_talker script to /home/ubuntu/dev_ws/install/turtlesim_simple/lib/turtlesim_simple\n'}
+[2.523573] (turtlesim_simple) StdoutLine: {'line': b'Installing talker script to /home/ubuntu/dev_ws/install/turtlesim_simple/lib/turtlesim_simple\n'}
+[2.525325] (turtlesim_simple) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/dev_ws/build/turtlesim_simple/install.log'\n"}
+[2.617494] (-) TimerEvent: {}
+[2.621699] (turtlesim_simple) CommandEnded: {'returncode': 0}
+[2.670982] (turtlesim_simple) JobEnded: {'identifier': 'turtlesim_simple', 'rc': 0}
+[2.674334] (-) EventReactorShutdown: {}

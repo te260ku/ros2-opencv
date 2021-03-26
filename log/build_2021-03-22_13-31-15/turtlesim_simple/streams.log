@@ -1,0 +1,25 @@
+[1.209s] Invoking command in '/home/ubuntu/dev_ws/src/turtlesim_simple': PYTHONPATH=/home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_simple build --build-base /home/ubuntu/dev_ws/build/turtlesim_simple/build install --prefix /home/ubuntu/dev_ws/install/turtlesim_simple --record /home/ubuntu/dev_ws/build/turtlesim_simple/install.log --single-version-externally-managed
+[2.265s] running egg_info
+[2.267s] writing ../../build/turtlesim_simple/turtlesim_simple.egg-info/PKG-INFO
+[2.268s] writing dependency_links to ../../build/turtlesim_simple/turtlesim_simple.egg-info/dependency_links.txt
+[2.269s] writing entry points to ../../build/turtlesim_simple/turtlesim_simple.egg-info/entry_points.txt
+[2.270s] writing requirements to ../../build/turtlesim_simple/turtlesim_simple.egg-info/requires.txt
+[2.270s] writing top-level names to ../../build/turtlesim_simple/turtlesim_simple.egg-info/top_level.txt
+[2.408s] reading manifest file '../../build/turtlesim_simple/turtlesim_simple.egg-info/SOURCES.txt'
+[2.412s] writing manifest file '../../build/turtlesim_simple/turtlesim_simple.egg-info/SOURCES.txt'
+[2.413s] running build
+[2.413s] running build_py
+[2.414s] copying turtlesim_simple/publisher_key.py -> /home/ubuntu/dev_ws/build/turtlesim_simple/build/lib/turtlesim_simple
+[2.415s] running install
+[2.419s] running install_lib
+[2.423s] copying /home/ubuntu/dev_ws/build/turtlesim_simple/build/lib/turtlesim_simple/publisher_key.py -> /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple
+[2.426s] byte-compiling /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple/publisher_key.py to publisher_key.cpython-38.pyc
+[2.432s] running install_data
+[2.435s] running install_egg_info
+[2.441s] removing '/home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple-0.0.0-py3.8.egg-info' (and everything under it)
+[2.443s] Copying ../../build/turtlesim_simple/turtlesim_simple.egg-info to /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple-0.0.0-py3.8.egg-info
+[2.448s] running install_scripts
+[2.518s] Installing key_talker script to /home/ubuntu/dev_ws/install/turtlesim_simple/lib/turtlesim_simple
+[2.519s] Installing talker script to /home/ubuntu/dev_ws/install/turtlesim_simple/lib/turtlesim_simple
+[2.520s] writing list of installed files to '/home/ubuntu/dev_ws/build/turtlesim_simple/install.log'
+[2.617s] Invoked command in '/home/ubuntu/dev_ws/src/turtlesim_simple' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_simple build --build-base /home/ubuntu/dev_ws/build/turtlesim_simple/build install --prefix /home/ubuntu/dev_ws/install/turtlesim_simple --record /home/ubuntu/dev_ws/build/turtlesim_simple/install.log --single-version-externally-managed

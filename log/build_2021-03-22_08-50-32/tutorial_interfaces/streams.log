@@ -1,0 +1,20 @@
+[0.067s] Invoking command in '/home/ubuntu/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/py_srvcli:/home/ubuntu/dev_ws/install/py_pubsub:/home/ubuntu/dev_ws/install/my_package:/home/ubuntu/ros2_opencv_ws/install/cv_basics:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/install/tutorial_interfaces
+[0.144s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.296s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.215s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.539s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.555s] -- Added test 'lint_cmake' to check CMake code style
+[1.563s] -- Added test 'xmllint' to check XML markup files
+[1.568s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.605s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.964s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.058s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:64 (message):
+[3.059s]   rosidl_generate_interfaces() must be called before ament_package()
+[3.059s] Call Stack (most recent call first):
+[3.060s]   CMakeLists.txt:39 (rosidl_generate_interfaces)
+[3.060s] 
+[3.060s] 
+[3.071s] -- Configuring incomplete, errors occurred!
+[3.071s] See also "/home/ubuntu/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[3.093s] Invoked command in '/home/ubuntu/dev_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/py_srvcli:/home/ubuntu/dev_ws/install/py_pubsub:/home/ubuntu/dev_ws/install/my_package:/home/ubuntu/ros2_opencv_ws/install/cv_basics:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/install/tutorial_interfaces

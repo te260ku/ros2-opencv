@@ -1,0 +1,5 @@
+  File "/home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple/publisher.py", line 7
+    super().__init__('simple_publisher)
+                                      ^
+SyntaxError: EOL while scanning string literal
+

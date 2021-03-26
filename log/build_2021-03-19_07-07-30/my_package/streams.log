@@ -1,0 +1,37 @@
+[1.314s] Invoking command in '/home/ubuntu/dev_ws/src/my_package': PYTHONPATH=/home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ubuntu/dev_ws/build/my_package/build install --prefix /home/ubuntu/dev_ws/install/my_package --record /home/ubuntu/dev_ws/build/my_package/install.log --single-version-externally-managed
+[2.700s] running egg_info
+[2.703s] creating ../../build/my_package/my_package.egg-info
+[2.704s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[2.705s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[2.707s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[2.708s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[2.709s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[2.722s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.920s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.926s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.927s] running build
+[2.928s] running build_py
+[2.928s] creating /home/ubuntu/dev_ws/build/my_package/build
+[2.929s] creating /home/ubuntu/dev_ws/build/my_package/build/lib
+[2.929s] creating /home/ubuntu/dev_ws/build/my_package/build/lib/my_package
+[2.930s] copying my_package/__init__.py -> /home/ubuntu/dev_ws/build/my_package/build/lib/my_package
+[2.930s] copying my_package/my_node.py -> /home/ubuntu/dev_ws/build/my_package/build/lib/my_package
+[2.930s] running install
+[2.933s] running install_lib
+[2.939s] creating /home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages/my_package
+[2.940s] copying /home/ubuntu/dev_ws/build/my_package/build/lib/my_package/__init__.py -> /home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages/my_package
+[2.940s] copying /home/ubuntu/dev_ws/build/my_package/build/lib/my_package/my_node.py -> /home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages/my_package
+[2.943s] byte-compiling /home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc
+[2.948s] byte-compiling /home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages/my_package/my_node.py to my_node.cpython-38.pyc
+[2.950s] running install_data
+[2.953s] creating /home/ubuntu/dev_ws/install/my_package/share/ament_index
+[2.958s] creating /home/ubuntu/dev_ws/install/my_package/share/ament_index/resource_index
+[2.959s] creating /home/ubuntu/dev_ws/install/my_package/share/ament_index/resource_index/packages
+[2.960s] copying resource/my_package -> /home/ubuntu/dev_ws/install/my_package/share/ament_index/resource_index/packages
+[2.962s] copying package.xml -> /home/ubuntu/dev_ws/install/my_package/share/my_package
+[2.963s] running install_egg_info
+[2.970s] Copying ../../build/my_package/my_package.egg-info to /home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[2.975s] running install_scripts
+[3.072s] Installing my_node script to /home/ubuntu/dev_ws/install/my_package/lib/my_package
+[3.073s] writing list of installed files to '/home/ubuntu/dev_ws/build/my_package/install.log'
+[3.185s] Invoked command in '/home/ubuntu/dev_ws/src/my_package' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ubuntu/dev_ws/build/my_package/build install --prefix /home/ubuntu/dev_ws/install/my_package --record /home/ubuntu/dev_ws/build/my_package/install.log --single-version-externally-managed

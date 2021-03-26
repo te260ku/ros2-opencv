@@ -1,0 +1,29 @@
+[1.231s] Invoking command in '/home/ubuntu/dev_ws/src/py_srvcli': PYTHONPATH=/home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages:/home/ubuntu/ros2_opencv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/ros2_opencv_ws/install/cv_basics/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ubuntu/dev_ws/build/py_srvcli/build install --prefix /home/ubuntu/dev_ws/install/py_srvcli --record /home/ubuntu/dev_ws/build/py_srvcli/install.log --single-version-externally-managed
+[2.282s] running egg_info
+[2.284s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.285s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.286s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.286s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.287s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.424s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.428s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.429s] running build
+[2.429s] running build_py
+[2.430s] copying py_srvcli/service_member_function.py -> /home/ubuntu/dev_ws/build/py_srvcli/build/lib/py_srvcli
+[2.431s] copying py_srvcli/client_member_function.py -> /home/ubuntu/dev_ws/build/py_srvcli/build/lib/py_srvcli
+[2.432s] running install
+[2.436s] running install_lib
+[2.440s] copying /home/ubuntu/dev_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[2.441s] copying /home/ubuntu/dev_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[2.444s] byte-compiling /home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc
+[2.450s] byte-compiling /home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc
+[2.452s] running install_data
+[2.454s] copying package.xml -> /home/ubuntu/dev_ws/install/py_srvcli/share/py_srvcli
+[2.455s] running install_egg_info
+[2.461s] removing '/home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[2.463s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[2.468s] running install_scripts
+[2.538s] Installing client script to /home/ubuntu/dev_ws/install/py_srvcli/lib/py_srvcli
+[2.539s] Installing service script to /home/ubuntu/dev_ws/install/py_srvcli/lib/py_srvcli
+[2.541s] writing list of installed files to '/home/ubuntu/dev_ws/build/py_srvcli/install.log'
+[2.638s] Invoked command in '/home/ubuntu/dev_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/my_package/lib/python3.8/site-packages:/home/ubuntu/ros2_opencv_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/ros2_opencv_ws/install/cv_basics/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ubuntu/dev_ws/build/py_srvcli/build install --prefix /home/ubuntu/dev_ws/install/py_srvcli --record /home/ubuntu/dev_ws/build/py_srvcli/install.log --single-version-externally-managed

@@ -1,0 +1,42 @@
+[1.220s] Invoking command in '/home/ubuntu/dev_ws/src/turtlesim_simple': PYTHONPATH=/home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_simple build --build-base /home/ubuntu/dev_ws/build/turtlesim_simple/build install --prefix /home/ubuntu/dev_ws/install/turtlesim_simple --record /home/ubuntu/dev_ws/build/turtlesim_simple/install.log --single-version-externally-managed
+[2.288s] running egg_info
+[2.290s] creating ../../build/turtlesim_simple/turtlesim_simple.egg-info
+[2.290s] writing ../../build/turtlesim_simple/turtlesim_simple.egg-info/PKG-INFO
+[2.291s] writing dependency_links to ../../build/turtlesim_simple/turtlesim_simple.egg-info/dependency_links.txt
+[2.292s] writing entry points to ../../build/turtlesim_simple/turtlesim_simple.egg-info/entry_points.txt
+[2.293s] writing requirements to ../../build/turtlesim_simple/turtlesim_simple.egg-info/requires.txt
+[2.293s] writing top-level names to ../../build/turtlesim_simple/turtlesim_simple.egg-info/top_level.txt
+[2.308s] writing manifest file '../../build/turtlesim_simple/turtlesim_simple.egg-info/SOURCES.txt'
+[2.456s] reading manifest file '../../build/turtlesim_simple/turtlesim_simple.egg-info/SOURCES.txt'
+[2.460s] writing manifest file '../../build/turtlesim_simple/turtlesim_simple.egg-info/SOURCES.txt'
+[2.460s] running build
+[2.461s] running build_py
+[2.461s] creating /home/ubuntu/dev_ws/build/turtlesim_simple/build
+[2.462s] creating /home/ubuntu/dev_ws/build/turtlesim_simple/build/lib
+[2.462s] creating /home/ubuntu/dev_ws/build/turtlesim_simple/build/lib/turtlesim_simple
+[2.463s] copying turtlesim_simple/__init__.py -> /home/ubuntu/dev_ws/build/turtlesim_simple/build/lib/turtlesim_simple
+[2.463s] copying turtlesim_simple/publisher.py -> /home/ubuntu/dev_ws/build/turtlesim_simple/build/lib/turtlesim_simple
+[2.464s] running install
+[2.468s] running install_lib
+[2.474s] creating /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple
+[2.474s] copying /home/ubuntu/dev_ws/build/turtlesim_simple/build/lib/turtlesim_simple/__init__.py -> /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple
+[2.475s] copying /home/ubuntu/dev_ws/build/turtlesim_simple/build/lib/turtlesim_simple/publisher.py -> /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple
+[2.478s] byte-compiling /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple/__init__.py to __init__.cpython-38.pyc
+[2.482s] byte-compiling /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple/publisher.py to publisher.cpython-38.pyc
+[2.483s]   File "/home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple/publisher.py", line 7
+[2.484s]     super().__init__('simple_publisher)
+[2.484s]                                       ^
+[2.485s] SyntaxError: EOL while scanning string literal
+[2.485s] 
+[2.485s] running install_data
+[2.486s] creating /home/ubuntu/dev_ws/install/turtlesim_simple/share/ament_index
+[2.487s] creating /home/ubuntu/dev_ws/install/turtlesim_simple/share/ament_index/resource_index
+[2.487s] creating /home/ubuntu/dev_ws/install/turtlesim_simple/share/ament_index/resource_index/packages
+[2.488s] copying resource/turtlesim_simple -> /home/ubuntu/dev_ws/install/turtlesim_simple/share/ament_index/resource_index/packages
+[2.488s] copying package.xml -> /home/ubuntu/dev_ws/install/turtlesim_simple/share/turtlesim_simple
+[2.488s] running install_egg_info
+[2.497s] Copying ../../build/turtlesim_simple/turtlesim_simple.egg-info to /home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages/turtlesim_simple-0.0.0-py3.8.egg-info
+[2.502s] running install_scripts
+[2.581s] Installing talker script to /home/ubuntu/dev_ws/install/turtlesim_simple/lib/turtlesim_simple
+[2.583s] writing list of installed files to '/home/ubuntu/dev_ws/build/turtlesim_simple/install.log'
+[2.679s] Invoked command in '/home/ubuntu/dev_ws/src/turtlesim_simple' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/install/turtlesim_simple/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_simple build --build-base /home/ubuntu/dev_ws/build/turtlesim_simple/build install --prefix /home/ubuntu/dev_ws/install/turtlesim_simple --record /home/ubuntu/dev_ws/build/turtlesim_simple/install.log --single-version-externally-managed
